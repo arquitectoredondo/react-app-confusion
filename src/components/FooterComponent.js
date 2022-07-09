@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = (props) => {
+function Footer(props) {
   return (
     <div className="footer">
       <div className="container">
@@ -13,7 +13,7 @@ const Footer = (props) => {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li>
                 <Link to="/menu">Menu</Link>
@@ -86,6 +86,5 @@ const Footer = (props) => {
       </div>
     </div>
   );
-};
-
+}
 export default Footer;
